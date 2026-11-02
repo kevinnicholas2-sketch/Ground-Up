@@ -1,0 +1,25 @@
+{
+  "name": "ground-up",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Ground Up — homepage prototype for a fictional Williamsburg, Brooklyn coffee shop (Product & UX class project).",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "next": "15.5.28",
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "22.18.0",
+    "@types/react": "19.1.12",
+    "@types/react-dom": "19.1.9",
+    "typescript": "5.9.2",
+    "vitest": "3.2.4"
+  }
+}
